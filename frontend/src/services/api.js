@@ -1,13 +1,8 @@
-/*import axios from "axios";
-
-export default axios.create({
-  baseURL: "http://localhost:5000/api", // update when backend is deployed
-});
-*/
 import axios from "axios";
 
+// 🌐 Change this to your deployed backend URL
 const api = axios.create({
-  baseURL: "http://localhost:5000/api", // 👈 Your backend base URL
+  baseURL: "https://talkandfix.onrender.com/api",
 });
 
 export default api;
