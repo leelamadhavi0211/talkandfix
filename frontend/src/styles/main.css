@@ -1,3 +1,43 @@
+.lang-select-page {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #e8f5e9, #f1f8e9);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.lang-select-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: #0d47a1;
+}
+
+.lang-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-lang {
+  background: #0d47a1;
+  border: none;
+  border-radius: 15px;
+  padding: 15px 25px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn-lang:hover {
+  background: #0d47a1;
+  transform: scale(1.05);
+}
+
 /* Dashboard Styles */
 .dashboard {
   font-family: "Poppins", sans-serif;
@@ -415,3 +455,92 @@
   color: #0d47a1;
   font-size: 0.95rem;
 }
+/* Success Page Styles */
+.success-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+}
+
+.success-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 25px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 0.8s ease;
+}
+
+.success-title {
+  font-size: 2rem;
+  color: #0d47a1;
+  margin-bottom: 1rem;
+}
+
+.success-text {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.btn-new,
+.btn-home {
+  background: #0d47a1;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  margin: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-new:hover,
+.btn-home:hover {
+  background: #1565c0;
+  transform: scale(1.05);
+}
+.track-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+}
+
+.track-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 25px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 400px;
+}
+
+.track-title {
+  color: #1b5e20;
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.track-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  margin: 1rem 0;
+  font-size: 1rem;
+}
+
+.track-result {
+  margin-top: 1.5rem;
+  background: #f1f8e9;
+  padding: 1rem;
+  border-radius: 15px;
+  text-align: left;
+}
+
+
